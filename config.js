@@ -17,7 +17,7 @@ window.PRACTICE_CONFIG = {
   professionalTitle: "Ärztin, verliehen in der Bundesrepublik Deutschland",
   professionalRules: "Berufsordnung der Ärztekammer Berlin",
   professionalRulesUrl: "https://www.aekb.de/recht/berufsrecht",
-  taxNumber: "Bitte vor Livegang ergänzen, sofern vorhanden",
+  taxNumber: "",
   openingHours: [
     ["Montag", "08:00–12:00 · 14:00–17:00"],
     ["Dienstag", "08:00–12:00 · 14:00–18:00"],

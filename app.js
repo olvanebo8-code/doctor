@@ -11,6 +11,9 @@
     const value = cfg[element.dataset.config];
     if (typeof value === "string") element.textContent = value;
   });
+  document.querySelectorAll("[data-optional-config]").forEach((element) => {
+    if (!cfg[element.dataset.optionalConfig]) element.hidden = true;
+  });
   document.querySelectorAll("[data-phone]").forEach((element) => {
     element.href = "tel:" + cfg.phoneLink;
   });

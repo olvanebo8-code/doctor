@@ -9,7 +9,7 @@ A German-language, responsive website template for a medical practice. It is a s
 
 ## Customize for a practice
 
-1. Update config.js with the practice name, responsible physician, exact qualifications, address, verified services, contact details, opening hours, chamber, authority, and professional rules.
+1. Update config.js with the practice name, responsible physician, exact qualifications, address, verified services, contact details, opening hours, chamber, authority, and professional rules. Add a tax identifier only when applicable.
 2. Replace all sample data and review each service description for factual accuracy and applicable professional rules.
 3. Complete impressum.html and datenschutz.html for the actual operator, host, mail provider, retention, legal bases, and any required data-protection contact.
 4. Update the SEO title and descriptions in index.html, then add a canonical URL and sitemap URL for the chosen domain.
