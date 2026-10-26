@@ -1,6 +1,6 @@
 # Refresh Site Arzt
 
-A German-language, responsive website template for a medical practice. It is a static site with reusable content in config.js, locally stored photos, an accessible mobile menu, service cards, opening hours, legal pages, and an appointment request that opens the visitor's email client. Image source and license notes are in assets/IMAGE-CREDITS.md.
+A German-language, responsive website template for a medical practice. It is a static site with reusable content in config.js, the Site Refresh logo, locally stored photos, an accessible mobile menu, service cards, opening hours, legal pages, and an appointment request that opens the visitor's email client. Photo source and license notes are in assets/IMAGE-CREDITS.md.
 
 ## Run locally
 
