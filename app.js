@@ -56,10 +56,10 @@
   const serviceGrid = document.getElementById("service-grid");
   if (serviceGrid) {
     serviceGrid.innerHTML = cfg.services.map((item) =>
-      '<article class="service-card"><span class="service-number">' + escapeHtml(item.icon) +
+      '<article class="service-card"><img class="service-photo" src="' + escapeHtml(item.photo) + '" alt="' + escapeHtml(item.photoAlt) + '" loading="lazy" decoding="async"><div class="service-card-copy"><span class="service-number">' + escapeHtml(item.icon) +
       '</span><h3>' + escapeHtml(item.title) + '</h3><p>' + escapeHtml(item.text) +
       '</p><a href="#termin" aria-label="Termin anfragen: ' + escapeHtml(item.title) +
-      '">Mehr erfahren <span aria-hidden="true">↗</span></a></article>'
+      '">Mehr erfahren <span aria-hidden="true">↗</span></a></div></article>'
     ).join("");
   }
 

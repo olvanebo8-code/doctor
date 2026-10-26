@@ -1,7 +1,7 @@
 /* Zentrale Praxiskonfiguration: Praxis- und Musterdaten hier austauschen. */
 window.PRACTICE_CONFIG = {
   siteName: "Refresh Site Arzt",
-  practiceName: "Praxis am Park",
+  practiceName: "Refresh Site Praxis am Park",
   doctorName: "Dr. med. Lea Sommer",
   doctorInitials: "LS",
   qualifications: "Fachärztin für Allgemeinmedizin",
@@ -27,12 +27,12 @@ window.PRACTICE_CONFIG = {
     ["Samstag & Sonntag", "Geschlossen"]
   ],
   services: [
-    { icon: "01", title: "Hausärztliche Betreuung", text: "Anlaufstelle für gesundheitliche Fragen und die medizinische Versorgung im Alltag." },
-    { icon: "02", title: "Vorsorge & Check-ups", text: "Beratung zu verfügbaren Vorsorgeleistungen und individuellen Untersuchungen." },
-    { icon: "03", title: "Impfberatung", text: "Persönliche Beratung zum Impfstatus und zu empfohlenen Impfungen." },
-    { icon: "04", title: "Diagnostik", text: "Anamnese und Untersuchungen als Grundlage für die weitere ärztliche Beratung." },
-    { icon: "05", title: "Chronische Erkrankungen", text: "Regelmäßige hausärztliche Begleitung und Abstimmung der Behandlung." },
-    { icon: "06", title: "Überweisungen & Befunde", text: "Koordination mit Fachpraxen und Besprechung vorliegender Befunde." }
+    { icon: "01", title: "Hausärztliche Betreuung", text: "Anlaufstelle für gesundheitliche Fragen und die medizinische Versorgung im Alltag.", photo: "assets/service-care.jpg", photoAlt: "Ärztin im Gespräch mit einem Patienten" },
+    { icon: "02", title: "Vorsorge & Check-ups", text: "Beratung zu verfügbaren Vorsorgeleistungen und individuellen Untersuchungen.", photo: "assets/service-prevention.jpg", photoAlt: "Hausärztliche Blutdruckmessung im Rahmen einer Untersuchung" },
+    { icon: "03", title: "Impfberatung", text: "Persönliche Beratung zum Impfstatus und zu empfohlenen Impfungen.", photo: "assets/service-vaccine.jpg", photoAlt: "Ärztin verabreicht einer Patientin eine Impfung" },
+    { icon: "04", title: "Diagnostik", text: "Anamnese und Untersuchungen als Grundlage für die weitere ärztliche Beratung.", photo: "assets/service-diagnostics.jpg", photoAlt: "Medizinische Untersuchung mit Stethoskop" },
+    { icon: "05", title: "Chronische Erkrankungen", text: "Regelmäßige hausärztliche Begleitung und Abstimmung der Behandlung.", photo: "assets/service-chronic-care.jpg", photoAlt: "Langzeitbetreuung mit Blutdruckmessung" },
+    { icon: "06", title: "Überweisungen & Befunde", text: "Koordination mit Fachpraxen und Besprechung vorliegender Befunde.", photo: "assets/service-coordination.jpg", photoAlt: "Ärztin bespricht Befunde mit einem Patienten" }
   ],
   treatments: [
     { title: "Allgemeinmedizin", text: "Hausärztliche Gespräche, Untersuchungen und Beratung zu den nächsten Schritten." },
